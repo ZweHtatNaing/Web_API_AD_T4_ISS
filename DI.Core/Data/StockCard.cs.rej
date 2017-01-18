@@ -1,0 +1,9 @@
+diff a/DI.Core/Data/StockCard.cs b/DI.Core/Data/StockCard.cs	(rejected hunks)
+@@ -16,7 +16,6 @@
+ 
+         public Guid StockId { get; set; }
+ 
+-        public virtual ICollection<Stock> Stocks { get; set; }
+         public virtual Stock Stocks { get; set; }
+     }
+ }
