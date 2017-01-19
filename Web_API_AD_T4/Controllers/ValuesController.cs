@@ -67,5 +67,40 @@ namespace Web_API_AD_T4.Controllers
     public class CategoryController : ValuesController<Category>
     {
     }
-
+    [RoutePrefix("api/Employee")]
+    public class EmployeeController : ValuesController<Employee>
+    {
+    }
+    [RoutePrefix("api/Department")]
+    public class DepartmentController : ValuesController<Department>
+    {
+    }
+    [RoutePrefix("api/Departmenthead")]
+    public class DepartmenHeadtController : ValuesController<DepartmentHead>
+    {
+    }
+    [RoutePrefix("api/Requitition")]
+    public class RequititionController : ValuesController<Requitition>
+    {
+    }
+    [RoutePrefix("api/RequititionDetail")]
+    public class RequisitionDetailController : ValuesController<RequisitionDetail>
+    {
+    }
+    [RoutePrefix("api/RequititionSupplier")]
+    public class RequititionSupplierController : ValuesController<RequisitionPurchaseSupplier>
+    {
+    }
+    [RoutePrefix("api/Stockcard")]
+    public class StockcardController : ValuesController<StockCard>
+    {
+    }
+    [RoutePrefix("api/Uom")]
+    public class UomController : ValuesController<UOM>
+    {
+    }
+    [RoutePrefix("api/Account")]
+    public class AccountController : ValuesController<Account>
+    {
+    }
 }
