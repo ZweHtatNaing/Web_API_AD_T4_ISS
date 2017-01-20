@@ -43,3 +43,18 @@ C:\Users\Zwe Htat Naing\Desktop\API_AD_T4\DI.Data\bin\Debug\Microsoft.Owin.xml
 C:\Users\Zwe Htat Naing\Desktop\API_AD_T4\DI.Data\obj\Debug\DI.Data.csprojResolveAssemblyReference.cache
 C:\Users\Zwe Htat Naing\Desktop\API_AD_T4\DI.Data\obj\Debug\DI.Data.dll
 C:\Users\Zwe Htat Naing\Desktop\API_AD_T4\DI.Data\obj\Debug\DI.Data.pdb
+C:\Users\LIU XURAN\Desktop\AD_API\DI.Data\bin\Debug\DI.Data.dll.config
+C:\Users\LIU XURAN\Desktop\AD_API\DI.Data\bin\Debug\DI.Data.dll
+C:\Users\LIU XURAN\Desktop\AD_API\DI.Data\bin\Debug\DI.Data.pdb
+C:\Users\LIU XURAN\Desktop\AD_API\DI.Data\bin\Debug\DI.Core.dll
+C:\Users\LIU XURAN\Desktop\AD_API\DI.Data\bin\Debug\EntityFramework.dll
+C:\Users\LIU XURAN\Desktop\AD_API\DI.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\LIU XURAN\Desktop\AD_API\DI.Data\bin\Debug\Microsoft.Owin.dll
+C:\Users\LIU XURAN\Desktop\AD_API\DI.Data\bin\Debug\DI.Core.pdb
+C:\Users\LIU XURAN\Desktop\AD_API\DI.Data\bin\Debug\EntityFramework.xml
+C:\Users\LIU XURAN\Desktop\AD_API\DI.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\LIU XURAN\Desktop\AD_API\DI.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\LIU XURAN\Desktop\AD_API\DI.Data\bin\Debug\Microsoft.Owin.xml
+C:\Users\LIU XURAN\Desktop\AD_API\DI.Data\obj\Debug\DI.Data.csprojResolveAssemblyReference.cache
+C:\Users\LIU XURAN\Desktop\AD_API\DI.Data\obj\Debug\DI.Data.dll
+C:\Users\LIU XURAN\Desktop\AD_API\DI.Data\obj\Debug\DI.Data.pdb

@@ -14,3 +14,18 @@ C:\Users\Zwe Htat Naing\Desktop\API_AD_T4\DI.Data\bin\Release\Microsoft.Owin.xml
 C:\Users\Zwe Htat Naing\Desktop\API_AD_T4\DI.Data\obj\Release\DI.Data.csprojResolveAssemblyReference.cache
 C:\Users\Zwe Htat Naing\Desktop\API_AD_T4\DI.Data\obj\Release\DI.Data.dll
 C:\Users\Zwe Htat Naing\Desktop\API_AD_T4\DI.Data\obj\Release\DI.Data.pdb
+C:\Users\LIU XURAN\Desktop\AD_API\DI.Data\bin\Release\DI.Data.dll.config
+C:\Users\LIU XURAN\Desktop\AD_API\DI.Data\bin\Release\DI.Data.dll
+C:\Users\LIU XURAN\Desktop\AD_API\DI.Data\bin\Release\DI.Data.pdb
+C:\Users\LIU XURAN\Desktop\AD_API\DI.Data\bin\Release\DI.Core.dll
+C:\Users\LIU XURAN\Desktop\AD_API\DI.Data\bin\Release\EntityFramework.dll
+C:\Users\LIU XURAN\Desktop\AD_API\DI.Data\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\LIU XURAN\Desktop\AD_API\DI.Data\bin\Release\Microsoft.Owin.dll
+C:\Users\LIU XURAN\Desktop\AD_API\DI.Data\bin\Release\DI.Core.pdb
+C:\Users\LIU XURAN\Desktop\AD_API\DI.Data\bin\Release\EntityFramework.xml
+C:\Users\LIU XURAN\Desktop\AD_API\DI.Data\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\LIU XURAN\Desktop\AD_API\DI.Data\bin\Release\Microsoft.AspNet.Identity.Core.xml
+C:\Users\LIU XURAN\Desktop\AD_API\DI.Data\bin\Release\Microsoft.Owin.xml
+C:\Users\LIU XURAN\Desktop\AD_API\DI.Data\obj\Release\DI.Data.csprojResolveAssemblyReference.cache
+C:\Users\LIU XURAN\Desktop\AD_API\DI.Data\obj\Release\DI.Data.dll
+C:\Users\LIU XURAN\Desktop\AD_API\DI.Data\obj\Release\DI.Data.pdb

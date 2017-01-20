@@ -17,7 +17,7 @@ namespace DI.Data.Map
             Property(t => t.TransDate).IsRequired();
             Property(t => t.Status).IsOptional();
             Property(t => t.Remark).IsOptional();
-            this.HasRequired(t => t.Employees).WithMany().HasForeignKey(t => t.EmployeeId);
+//            this.HasRequired(t => t.Employees).WithMany().HasForeignKey(t => t.EmployeeId);
             ToTable("RequititionHeaders");
         }
     }

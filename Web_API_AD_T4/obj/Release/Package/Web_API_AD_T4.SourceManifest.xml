@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\Users\LIU XURAN\Desktop\AD_API\Web_API_AD_T4\obj\Release\Package\PackageTmp" />
+  <setAcl path="C:\Users\LIU XURAN\Desktop\AD_API\Web_API_AD_T4\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="C:\Users\LIU XURAN\Desktop\AD_API\Web_API_AD_T4\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+</sitemanifest>

@@ -7,3 +7,12 @@ C:\Users\Zwe Htat Naing\Desktop\API_AD_T4\DI.Core\bin\Release\Microsoft.Owin.xml
 C:\Users\Zwe Htat Naing\Desktop\API_AD_T4\DI.Core\obj\Release\DI.Core.csprojResolveAssemblyReference.cache
 C:\Users\Zwe Htat Naing\Desktop\API_AD_T4\DI.Core\obj\Release\DI.Core.dll
 C:\Users\Zwe Htat Naing\Desktop\API_AD_T4\DI.Core\obj\Release\DI.Core.pdb
+C:\Users\LIU XURAN\Desktop\AD_API\DI.Core\bin\Release\DI.Core.dll
+C:\Users\LIU XURAN\Desktop\AD_API\DI.Core\bin\Release\DI.Core.pdb
+C:\Users\LIU XURAN\Desktop\AD_API\DI.Core\bin\Release\Microsoft.AspNet.Identity.Core.dll
+C:\Users\LIU XURAN\Desktop\AD_API\DI.Core\bin\Release\Microsoft.Owin.dll
+C:\Users\LIU XURAN\Desktop\AD_API\DI.Core\bin\Release\Microsoft.AspNet.Identity.Core.xml
+C:\Users\LIU XURAN\Desktop\AD_API\DI.Core\bin\Release\Microsoft.Owin.xml
+C:\Users\LIU XURAN\Desktop\AD_API\DI.Core\obj\Release\DI.Core.csprojResolveAssemblyReference.cache
+C:\Users\LIU XURAN\Desktop\AD_API\DI.Core\obj\Release\DI.Core.dll
+C:\Users\LIU XURAN\Desktop\AD_API\DI.Core\obj\Release\DI.Core.pdb

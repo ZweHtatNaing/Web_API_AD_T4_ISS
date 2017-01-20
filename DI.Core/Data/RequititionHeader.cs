@@ -15,9 +15,9 @@ namespace DI.Core.Data
         public string Remark { get; set; }
 
         public Guid EmployeeId { get; set; }
-        public ICollection<Employee> Employees { get; set; }
+//        public ICollection<Employee> Employees { get; set; }
 
-        public RequisitionDetail RequisitionDetails { get; set; }
+        public ICollection<RequisitionDetail> RequisitionDetails { get; set; }
 
 
 

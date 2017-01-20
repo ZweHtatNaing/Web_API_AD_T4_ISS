@@ -18,7 +18,8 @@ namespace DI.Data.Map
             Property(t => t.OutstandingQty).IsRequired();
             Property(t => t.StockId).IsRequired();
             Property(t => t.TransactionStatus).IsOptional();
-            this.HasRequired(t => t.Stocks).WithMany().HasForeignKey(t => t.StockId);
+            this.HasRequired(t => t.RequititionHeader).WithMany().HasForeignKey(t => t.RequisitionHeaderId);
+//            this.HasRequired(t => t.Stocks).WithMany().HasForeignKey(t => t.StockId);
             ToTable("RequisitionDetail");
 
         }

@@ -681,6 +681,64 @@ namespace Web_API_AD_T4.Models
 
             #endregion
 
+            #region "RequisitionHeader"
+            var _RequisitionHeaders = new List<RequititionHeader>
+            {
+                new RequititionHeader
+                {
+                    ID = Guid.NewGuid(),EmployeeId = _Employees.Where(x=>x.EmployeeNumber.Equals("E0046805")).Select(x=>x.ID).FirstOrDefault(),
+                    RequestionCode = "DDS/111/99",TransDate = Convert.ToDateTime("10/12/2000"),Status = "Pending",AddedDate = DateTime.Today,ModifiedDate = DateTime.Today
+                },
+                new RequititionHeader
+                {
+                    ID = Guid.NewGuid(),EmployeeId = _Employees.Where(x=>x.EmployeeNumber.Equals("E0046818")).Select(x=>x.ID).FirstOrDefault(),
+                    RequestionCode = "DDS/111/10",TransDate = Convert.ToDateTime("11/12/2000"),Status = "Approved",AddedDate = DateTime.Today,ModifiedDate = DateTime.Today
+                },
+                new RequititionHeader
+                {
+                    ID = Guid.NewGuid(),EmployeeId= _Employees.Where(x=>x.EmployeeNumber.Equals("E0046819")).Select(x=>x.ID).FirstOrDefault(),
+                    RequestionCode = "DDS/111/11",TransDate = Convert.ToDateTime("13/12/2000"),Status = "Pending",AddedDate = DateTime.Today,ModifiedDate = DateTime.Today
+                },
+                new RequititionHeader
+                {
+                    ID = Guid.NewGuid(),EmployeeId = _Employees.Where(x=>x.EmployeeNumber.Equals("E0046817")).Select(x=>x.ID).FirstOrDefault(),
+                    RequestionCode = "DDS/111/14",TransDate = Convert.ToDateTime("11/12/2000"),Status = "Rejected",AddedDate = DateTime.Today,ModifiedDate = DateTime.Today
+                },
+
+            };
+            foreach (var _requisitionHeader in _RequisitionHeaders)
+            {
+                Uow.Repository<RequititionHeader>().Insert(_requisitionHeader);
+            }
+
+
+            #endregion
+
+            #region RequisitionDetails
+            var _RequisitionDetails = new List<RequisitionDetail>
+            {
+                new RequisitionDetail
+                {
+                    ID = Guid.NewGuid(),RequisitionHeaderId =_RequisitionHeaders.Where(x=>x.RequestionCode.Equals("DDS/111/99")).Select(x=>x.ID).FirstOrDefault(),
+                    StockId = _Stocks.Where(x=>x.ItemCode.Equals("C001")).Select(x=>x.ID).FirstOrDefault(),OutstandingQty = -2,RequestedQty = 10,RetrieveQty = 0,
+                    OutstandingStatus = false,ModifiedDate = DateTime.Today,AddedDate = DateTime.Today
+                },
+                new RequisitionDetail
+                {
+                    ID = Guid.NewGuid(),RequisitionHeaderId =_RequisitionHeaders.Where(x=>x.RequestionCode.Equals("DDS/111/99")).Select(x=>x.ID).FirstOrDefault(),
+                    StockId = _Stocks.Where(x=>x.ItemCode.Equals("P001")).Select(x=>x.ID).FirstOrDefault(),OutstandingQty = 0,RequestedQty = 15,RetrieveQty = 15,
+                    OutstandingStatus = true,ModifiedDate = DateTime.Today,AddedDate = DateTime.Today
+                }
+            };
+            foreach (var _requsitionDetail in _RequisitionDetails)
+            {
+                Uow.Repository<RequisitionDetail>().Insert(_requsitionDetail);
+            }
+
+
+
+            #endregion
+
             base.Seed(context);
         }
        
