@@ -8,6 +8,7 @@ namespace DI.Core.Data
 {
     public class UOM:BaseEntity
     {
-        public string uom { get; set; }
+        public string UomDescription { get; set; }
+   
     }
 }

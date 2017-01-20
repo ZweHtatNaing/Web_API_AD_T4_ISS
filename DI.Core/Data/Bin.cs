@@ -10,5 +10,6 @@ namespace DI.Core.Data
     {
         public string BinCode { get; set; }
         public string BinDescription { get; set; }
+
     }
 }

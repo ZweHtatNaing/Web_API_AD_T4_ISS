@@ -28,3 +28,18 @@ C:\Users\Zwe Htat Naing\Documents\Visual Studio 2015\Projects\Web_API_AD_T4\DI.D
 C:\Users\Zwe Htat Naing\Documents\Visual Studio 2015\Projects\Web_API_AD_T4\DI.Data\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Zwe Htat Naing\Documents\Visual Studio 2015\Projects\Web_API_AD_T4\DI.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 C:\Users\Zwe Htat Naing\Documents\Visual Studio 2015\Projects\Web_API_AD_T4\DI.Data\bin\Debug\Microsoft.Owin.xml
+C:\Users\Zwe Htat Naing\Desktop\API_AD_T4\DI.Data\bin\Debug\DI.Data.dll.config
+C:\Users\Zwe Htat Naing\Desktop\API_AD_T4\DI.Data\bin\Debug\DI.Data.dll
+C:\Users\Zwe Htat Naing\Desktop\API_AD_T4\DI.Data\bin\Debug\DI.Data.pdb
+C:\Users\Zwe Htat Naing\Desktop\API_AD_T4\DI.Data\bin\Debug\DI.Core.dll
+C:\Users\Zwe Htat Naing\Desktop\API_AD_T4\DI.Data\bin\Debug\EntityFramework.dll
+C:\Users\Zwe Htat Naing\Desktop\API_AD_T4\DI.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Zwe Htat Naing\Desktop\API_AD_T4\DI.Data\bin\Debug\Microsoft.Owin.dll
+C:\Users\Zwe Htat Naing\Desktop\API_AD_T4\DI.Data\bin\Debug\DI.Core.pdb
+C:\Users\Zwe Htat Naing\Desktop\API_AD_T4\DI.Data\bin\Debug\EntityFramework.xml
+C:\Users\Zwe Htat Naing\Desktop\API_AD_T4\DI.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Zwe Htat Naing\Desktop\API_AD_T4\DI.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Zwe Htat Naing\Desktop\API_AD_T4\DI.Data\bin\Debug\Microsoft.Owin.xml
+C:\Users\Zwe Htat Naing\Desktop\API_AD_T4\DI.Data\obj\Debug\DI.Data.csprojResolveAssemblyReference.cache
+C:\Users\Zwe Htat Naing\Desktop\API_AD_T4\DI.Data\obj\Debug\DI.Data.dll
+C:\Users\Zwe Htat Naing\Desktop\API_AD_T4\DI.Data\obj\Debug\DI.Data.pdb

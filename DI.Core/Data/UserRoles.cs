@@ -9,6 +9,7 @@ namespace DI.Core.Data
     public class UserRoles:BaseEntity
     {
         public string Name { get; set; }
+     
  
     }
 }

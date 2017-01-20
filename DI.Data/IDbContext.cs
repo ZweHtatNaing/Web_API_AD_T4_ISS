@@ -14,7 +14,9 @@ namespace DI.Data
     {
         public IDbContext(): base("name=LogicUniversity")
        {
-            Database.SetInitializer<IDbContext>(new CreateDatabaseIfNotExists<IDbContext>());
+            this.Configuration.ProxyCreationEnabled = true;
+            this.Configuration.LazyLoadingEnabled = false;
+           
         }
         //public class ApplicationUser : IdentityUser
         //{

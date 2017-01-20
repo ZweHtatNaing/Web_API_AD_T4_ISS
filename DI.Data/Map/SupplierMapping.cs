@@ -13,11 +13,15 @@ namespace DI.Data.Map
         public SupplierMapping()
         {
             HasKey(t => t.ID);
-            Property(t => t.Name).IsRequired();
+            Property(t => t.SupplierCode).IsRequired();
+            Property(t => t.SupplierName).IsRequired();
+            Property(t => t.ContactName).IsRequired();
+            Property(t => t.PhoneNo).IsRequired();
+            Property(t => t.FaxNo).IsRequired();
             Property(t => t.Address).IsRequired();
-            Property(t => t.PhoneNo).IsOptional();
-            Property(t => t.postalcode).IsOptional();
-            HasRequired(t => t.Accounts).WithMany().HasForeignKey(u=>u.AccountId);
+            Property(t => t.PostalCode).IsRequired();
+            Property(t => t.GstRegNo).IsRequired();
+            Property(t => t.IsSelected).IsRequired();
             ToTable("Supplier");
         }
     }

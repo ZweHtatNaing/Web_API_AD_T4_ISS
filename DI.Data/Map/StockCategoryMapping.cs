@@ -13,12 +13,15 @@ namespace DI.Data.Map
         {
             HasKey(t => t.ID);
             Property(t => t.ItemCode).IsRequired();
+            Property(t => t.CategoryId).IsRequired();
             Property(t => t.Price).IsRequired();
             Property(t => t.ItemDescription).IsRequired();
             Property(t => t.ReoderQty).IsRequired();
             Property(t => t.ReorderLevelQty).IsOptional();
             Property(t => t.AddedDate).IsOptional();
-            this.HasRequired(t => t.Categories).WithMany().HasForeignKey(t => t.CategoryId);
+            Property(t => t.BinCode).IsRequired();
+         
+            this.HasRequired(t => t.Categories).WithMany().HasForeignKey(t => t.CategoryId).WillCascadeOnDelete(false);
             ToTable("Stock");
         }
     }

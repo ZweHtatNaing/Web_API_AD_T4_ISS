@@ -10,11 +10,10 @@ namespace DI.Core.Data
     {
       
         public int reqQty { get; set; }
+
         public Guid StockId { get; set; }
-
-        public Guid SupplierId { get; set; }
-
-        public virtual Supplier Suppliers { get; set; }
-        public virtual Stock Stocks { get; set; }
+        public Guid SuppliersId { get; set; }
+        public virtual ICollection<Supplier> Suppliers { get; set; }
+        public virtual ICollection<Stock> Stocks { get; set; }
     }
 }

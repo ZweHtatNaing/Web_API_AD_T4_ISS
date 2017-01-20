@@ -6,9 +6,11 @@ using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Controllers;
 using System.Web.Http.Routing;
+using System.Web.Script.Serialization;
 using DI.Core;
 using DI.Core.Data;
 using DI.Data;
+using Newtonsoft.Json;
 
 namespace Web_API_AD_T4.Controllers
 {
@@ -17,10 +19,10 @@ namespace Web_API_AD_T4.Controllers
     {
         UnitOfWork uow = new UnitOfWork();
         private static Respority<T> ApiRespority;
-
         public ValuesController()
         {
             ApiRespority = uow.Repository<T>();
+           
         }
 
 
@@ -38,14 +40,12 @@ namespace Web_API_AD_T4.Controllers
         }
 
         [System.Web.Http.Route("Create")]
-        [HttpPost]
-        public void Post(T items)
+        public void Post(T entity)
         {
-            ApiRespority.Insert(items);
+            ApiRespority.Insert(entity);
         }
 
         [System.Web.Http.Route("Update")]
-        [HttpPost]
         public void Put(T items)
         {
             ApiRespority.Update(items);
@@ -75,12 +75,8 @@ namespace Web_API_AD_T4.Controllers
     public class DepartmentController : ValuesController<Department>
     {
     }
-    [RoutePrefix("api/Departmenthead")]
-    public class DepartmenHeadtController : ValuesController<DepartmentHead>
-    {
-    }
     [RoutePrefix("api/Requitition")]
-    public class RequititionController : ValuesController<Requitition>
+    public class RequititionController : ValuesController<RequititionHeader>
     {
     }
     [RoutePrefix("api/RequititionDetail")]
@@ -99,8 +95,5 @@ namespace Web_API_AD_T4.Controllers
     public class UomController : ValuesController<UOM>
     {
     }
-    [RoutePrefix("api/Account")]
-    public class AccountController : ValuesController<Account>
-    {
-    }
+
 }

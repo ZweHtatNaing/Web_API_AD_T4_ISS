@@ -10,5 +10,7 @@ namespace DI.Core.Data
     {
         public string CategoryCode { get; set; }
         public string CategoryDescription { get; set; }
+       
+
     }
 }

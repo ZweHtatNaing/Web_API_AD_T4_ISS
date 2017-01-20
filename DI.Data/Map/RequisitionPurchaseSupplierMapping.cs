@@ -14,8 +14,8 @@ namespace DI.Data.Map
         {
             HasKey(t => t.ID);
             Property(t => t.reqQty).IsRequired();
-            this.HasRequired(t => t.Stocks).WithMany().HasForeignKey(u => u.StockId);
-            this.HasRequired(t => t.Suppliers).WithMany().HasForeignKey(u => u.SupplierId);
+            this.HasRequired(t => t.Stocks).WithMany().HasForeignKey(t => t.StockId);
+            this.HasRequired(t => t.Suppliers).WithMany().HasForeignKey(u=>u.SuppliersId);
             ToTable("RequisitionPurchaseSupplier");
         }
     }

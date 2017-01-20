@@ -13,10 +13,12 @@ namespace DI.Data.Map
         public RequisitionDetailMapping()
         {
             HasKey(t => t.ID);
-            Property(t => t.FullfillQty).IsRequired();
-            Property(t => t.Status).IsOptional();
-          
-
+            Property(t => t.RequestedQty).IsRequired();
+            Property(t => t.RetrieveQty).IsRequired();
+            Property(t => t.OutstandingQty).IsRequired();
+            Property(t => t.StockId).IsRequired();
+            Property(t => t.TransactionStatus).IsOptional();
+            this.HasRequired(t => t.Stocks).WithMany().HasForeignKey(t => t.StockId);
             ToTable("RequisitionDetail");
 
         }

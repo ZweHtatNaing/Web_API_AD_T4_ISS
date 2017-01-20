@@ -58,13 +58,12 @@
     <Compile Include="DynamicLinq\LinQClause.cs" />
     <Compile Include="DynamicLinq\WhereClause.cs" />
     <Compile Include="IDbContext.cs" />
-    <Compile Include="Map\AccountMapping.cs" />
+    <Compile Include="Map\BinMapping.cs" />
     <Compile Include="Map\CatrgoryMapping.cs" />
-    <Compile Include="Map\DepartmentHeadMapping.cs" />
     <Compile Include="Map\DepartmentMapping.cs" />
     <Compile Include="Map\EmployeeMapping.cs" />
-    <Compile Include="Map\RequisitionMapping.cs" />
     <Compile Include="Map\RequisitionDetailMapping.cs" />
+    <Compile Include="Map\RequisitionHeaderMApping.cs" />
     <Compile Include="Map\RequisitionPurchaseSupplierMapping.cs" />
     <Compile Include="Map\StockCardMapping.cs" />
     <Compile Include="Map\StockCategoryMapping.cs" />

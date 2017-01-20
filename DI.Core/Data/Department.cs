@@ -13,5 +13,7 @@ namespace DI.Core.Data
         public string ContactName { get; set; }
         public int PhoneNo { get; set; }
         public int FaxNumber { get; set; }
+
+       
     }
 }

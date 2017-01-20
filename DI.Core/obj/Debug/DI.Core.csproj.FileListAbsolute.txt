@@ -16,3 +16,12 @@ C:\Users\Zwe Htat Naing\Documents\Visual Studio 2015\Projects\Web_API_AD_T4\DI.C
 C:\Users\Zwe Htat Naing\Documents\Visual Studio 2015\Projects\Web_API_AD_T4\DI.Core\obj\Debug\DI.Core.csprojResolveAssemblyReference.cache
 C:\Users\Zwe Htat Naing\Documents\Visual Studio 2015\Projects\Web_API_AD_T4\DI.Core\obj\Debug\DI.Core.dll
 C:\Users\Zwe Htat Naing\Documents\Visual Studio 2015\Projects\Web_API_AD_T4\DI.Core\obj\Debug\DI.Core.pdb
+C:\Users\Zwe Htat Naing\Desktop\API_AD_T4\DI.Core\bin\Debug\DI.Core.dll
+C:\Users\Zwe Htat Naing\Desktop\API_AD_T4\DI.Core\bin\Debug\DI.Core.pdb
+C:\Users\Zwe Htat Naing\Desktop\API_AD_T4\DI.Core\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Zwe Htat Naing\Desktop\API_AD_T4\DI.Core\bin\Debug\Microsoft.Owin.dll
+C:\Users\Zwe Htat Naing\Desktop\API_AD_T4\DI.Core\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Zwe Htat Naing\Desktop\API_AD_T4\DI.Core\bin\Debug\Microsoft.Owin.xml
+C:\Users\Zwe Htat Naing\Desktop\API_AD_T4\DI.Core\obj\Debug\DI.Core.csprojResolveAssemblyReference.cache
+C:\Users\Zwe Htat Naing\Desktop\API_AD_T4\DI.Core\obj\Debug\DI.Core.dll
+C:\Users\Zwe Htat Naing\Desktop\API_AD_T4\DI.Core\obj\Debug\DI.Core.pdb

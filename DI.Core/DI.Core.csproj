@@ -52,17 +52,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseEntity.cs" />
-    <Compile Include="Data\Account.cs" />
     <Compile Include="Data\AccountViewModels.cs" />
     <Compile Include="Data\Bin.cs" />
     <Compile Include="Data\Category.cs" />
     <Compile Include="Data\Department.cs" />
-    <Compile Include="Data\DepartmentHead.cs" />
     <Compile Include="Data\Employee.cs" />
     <Compile Include="Data\ManageViewModels.cs" />
     <Compile Include="Data\RequisitionDetail.cs" />
     <Compile Include="Data\RequisitionPurchaseSupplier.cs" />
-    <Compile Include="Data\Requitition.cs" />
+    <Compile Include="Data\RequititionHeader.cs" />
     <Compile Include="Data\Stock.cs" />
     <Compile Include="Data\StockCard.cs" />
     <Compile Include="Data\Supplier.cs" />

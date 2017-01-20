@@ -13,7 +13,7 @@ namespace DI.Data.Map
         public UOMMapping()
         {
             HasKey(t => t.ID);
-            Property(t => t.uom).IsRequired();
+            Property(t => t.UomDescription).IsRequired();
             ToTable("UOM");
         }
     }
